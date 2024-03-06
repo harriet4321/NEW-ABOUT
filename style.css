@@ -4,7 +4,7 @@ body{
     padding: 0;
 }
 header{
-    background-color: #e01976;
+    background-color: hsl(340, 92%, 52%);
     box-shadow: 0  0 10px;
     margin: 20px 10px;
 
@@ -43,32 +43,42 @@ header{
     background: #040101;
     color:#ffffff;
 }
+img{
+    width: 50%;
+
+}
 .container{
-    display: flex;
-    justify-content: space-between;
-    padding: 20px;
+    display: grid;
+    background-color: bisque;
 }
-.intro, .goals{
-    width: 45%;
+.intro{
+    display: grid;
+   
 }
-footer{
-    background-color: #e01976;
-    padding: 20px;
-    box-shadow: 0  0 10px;
-    margin: 20px 20px 20px 20px;
-    box-shadow: 0 0 20px;
+p{
     align-items: center;
-    bottom: 0;
-    left: 0;
-    height: 100px;
+    text-align: center;
 }
-.logo img{
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
+ h2{
+    text-align: center;
+}
+.vision{
+    display:grid;
+    grid-template-columns: auto;
+}
+.mission, vision{
+    display: -moz-inline-grid;
+
+}
+.values{
+    align-items: center;
+    text-align: center;
+   
+
+}
+.values li{
+    text-align: center;
+    
 }
 
-.navbar::after,
-footer::after{
-    filter: blur(10px);
-}
+
